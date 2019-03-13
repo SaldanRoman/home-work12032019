@@ -10,12 +10,12 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top justify-content: between" >
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
             <h1 style = "font-size: 1.6rem; color: white;">The house of furniture</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" >
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
@@ -27,7 +27,7 @@
                         <a class="nav-link" href="#contacts">Contacts</a>
                     </li>
                 </ul>
-                <a href="#" class="basket" data-toggle="modal" data-target="#ContactWithUS"><i class="fas fa-luggage-cart fa-spin"></i> <span class="basketBayN" ></span><img src="img/basket.png" alt="Cart"></a>
+                <a href="#"  id="basket" data-toggle="modal" data-target="#ContactWithUS"><i class="fas fa-luggage-cart fa-spin"></i> <span class="basketBayN" ></span><img src="img/basket.png" alt="Cart"></a>
             </div>
         </nav>
     </header>    
@@ -41,12 +41,12 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/slider/br-fourth.jpg" class="d-block w-100" alt="img_first">
+                            <img src="img/slider/br-fourth.jpg" class="d-block w-100" alt="br-fourth">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/slider/cr-first.jpg" class="d-block w-100" alt="img_second"></div>
+                            <img src="img/slider/cr-first.jpg" class="d-block w-100" alt="cr-first"></div>
                         <div class="carousel-item">
-                            <img src="img/slider/or-first.jpg" class="d-block w-100" alt="img_third">
+                            <img src="img/slider/or-first.jpg" class="d-block w-100" alt="or-first">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -65,7 +65,8 @@
 		<h2>Bedroom furniture</h2>
 		<div class="product-list">
 			<article class="product-card" id="br-first">
-                <img src="img/br/br-first.jpg" alt="br-first">
+                <div class="imgbox"><img src="img/br/br-first.jpg" alt="br-first"></div>
+                
                 <h3>br-first</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, commodi? Sunt officiis facilis quo, perspiciatis consequuntur dolorum voluptate veritatis numquam magnam blanditiis magni, nihil esse eligendi ullam quibusdam. Debitis, culpa?</p>
                 <div class="button-container">
@@ -75,7 +76,7 @@
                 </div>
 			</article>
 			<article class="product-card" id="br-second">
-                <img src="img/br/br-second.jpg" alt="br-second">
+                    <div class="imgbox"><img src="img/br/br-second.jpg" alt="br-second"></div>
                 <h3>br-second</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, commodi? Sunt officiis facilis quo, perspiciatis consequuntur dolorum voluptate veritatis numquam magnam blanditiis magni, nihil esse eligendi ullam quibusdam. Debitis, culpa?</p>
                 <div class="button-container">
@@ -86,7 +87,7 @@
 			</article>
 			<article class="product-card" id="br-third">
                     <a name="gallery"></a>
-                <img src="img/br/br-third.jpg" alt="br-third">
+                    <div class="imgbox"><img src="img/br/br-third.jpg" alt="br-third"></div>
                 <h3>br-third</h3>
                 <p id="showHideTxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, commodi? Sunt officiis facilis quo, perspiciatis consequuntur dolorum voluptate veritatis numquam magnam blanditiis magni, nihil esse eligendi ullam quibusdam. Debitis, culpa?</p>
                 <div class="button-container">
@@ -96,7 +97,7 @@
                 </div>
 			</article>
 			<article class="product-card" id="br-fourth">
-                <img src="img/br/br-fourth.jpg" alt="br-fourth">
+                    <div class="imgbox"><img src="img/br/br-fourth.jpg" alt="br-fourth"></div>
                 <h3>br-fourth</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, commodi? Sunt officiis facilis quo, perspiciatis consequuntur dolorum voluptate veritatis numquam magnam blanditiis magni, nihil esse eligendi ullam quibusdam. Debitis, culpa?</p>
                 <div class="button-container">
@@ -111,7 +112,7 @@
 			
 		<div class="product-list">
 			<article class="product-card" id="cr-first">
-                <img src="img/cr/cr-first.jpg" alt="cr-first">
+                    <div class="imgbox"><img src="img/cr/cr-first.jpg" alt="cr-first"></div>
                 <h3>cr-first</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, commodi? Sunt officiis facilis quo, perspiciatis consequuntur dolorum voluptate veritatis numquam magnam blanditiis magni, nihil esse eligendi ullam quibusdam. Debitis, culpa?</p>
                 <div class="button-container">
@@ -121,7 +122,7 @@
                 </div>
 			</article>
 			<article class="product-card" id="cr-second">
-                <img src="img/cr/cr-second.jpg" alt="cr-second">
+                    <div class="imgbox"><img src="img/cr/cr-second.jpg" alt="cr-second"></div>
                 <h3>cr-second</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, commodi? Sunt officiis facilis quo, perspiciatis consequuntur dolorum voluptate veritatis numquam magnam blanditiis magni, nihil esse eligendi ullam quibusdam. Debitis, culpa?</p>
                 <div class="button-container">
@@ -131,7 +132,7 @@
                 </div>
 			</article>
 			<article class="product-card" id="cr-third">
-                <img src="img/cr/cr-third.jpg" alt="cr-third">
+                    <div class="imgbox"><img src="img/cr/cr-third.jpg" alt="cr-third"></div>
                 <h3>cr-third</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, commodi? Sunt officiis facilis quo, perspiciatis consequuntur dolorum voluptate veritatis numquam magnam blanditiis magni, nihil esse eligendi ullam quibusdam. Debitis, culpa?</p>
                 <div class="button-container">
@@ -141,7 +142,7 @@
                 </div>
 			</article>
 			<article class="product-card" id="cr-fourth">
-                <img src="img/cr/cr-fourth.jpg" alt="cr-fourth">
+                    <div class="imgbox"><img src="img/cr/cr-fourth.jpg" alt="cr-fourth"></div>
                 <h3>cr-fourth</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, commodi? Sunt officiis facilis quo, perspiciatis consequuntur dolorum voluptate veritatis numquam magnam blanditiis magni, nihil esse eligendi ullam quibusdam. Debitis, culpa?</p>
                 <div class="button-container" >
