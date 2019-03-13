@@ -97,6 +97,10 @@ header nav a:hover{
 	overflow: hidden;
 }
 
+.product-card img{
+	transition-duration: 300ms;
+}
+
 .product-card img:hover{
 	display: block;
 	transform: scale(1.1,1.1);
