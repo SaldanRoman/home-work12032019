@@ -2,7 +2,7 @@ let setsArray = ' ';
 let totalMoney = 0;
 let basketBay = 0;
 
-document.querySelector('.basket').addEventListener('click', basketClick);
+document.querySelector('#basket').addEventListener('click', basketClick);
 function basketClick() {
     document.querySelector('#user-count').value = totalMoney;
     document.querySelector('#user-choose').value = setsArray;  
