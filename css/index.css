@@ -4,6 +4,10 @@
     font-family: 'Play', sans-serif;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 h2{
 	text-align: center;
 	font-size: 1.2rem;
@@ -18,12 +22,8 @@ h3{
 
 body {
     max-width: 980px;
-    margin: auto;
+	margin: auto;
 
-}
-
-header nav{
-	justify-content: space-between;
 }
 
 
